@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/make_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打电话"/>
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img2"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="做最好的自己，为自己而活，我永远在你身边支持你，加油，你最棒。---王宇飞"
+        android:textColor="@color/colorPrimary"/>
+
+</RelativeLayout>
